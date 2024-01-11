@@ -1,0 +1,122 @@
+html,body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+background-color: rgb(232, 232, 232);  
+}
+
+.main{
+  display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+  align-items: center;
+  color: black;
+}
+
+.main2{
+  display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+  align-items: center;
+  color: black;
+margin-top: 20px;
+}
+
+nav{
+  /* border: 1px solid red; */
+  background-color: rgb(249, 249, 249);
+  border-bottom: 1px solid rgb(200, 200, 200);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.nav-box{
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  margin-right: 40px;
+  /* border: 1px solid green; */
+}
+
+
+
+.logo{
+  margin-left: 40px;
+  height: 50px;
+}
+
+.text{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.a-tag{
+  color: rgb(228, 8, 8);
+  transition: 0.3s;
+}
+
+.a-tag:hover{
+  color: rgb(72, 72, 72);
+}
+
+
+form{
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.head{
+  text-align: center;
+  color: black;
+}
+
+input{
+  background-color: rgb(252, 252, 252);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(106, 106, 106);
+  border-radius: 3px;
+  padding: 15px;
+}
+
+input::placeholder{
+opacity: 0.3;
+}
+
+label{
+  margin-top: 20px;
+  text-align: left;
+  color: black;
+}
+
+.sub-btn{
+  background-color: rgb(235, 0, 0);
+  font-size: 20px;
+  height: 50px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+button:hover{
+  background-color: rgb(58, 58, 58);
+}
+
+span{
+  color: red;
+  text-align: left;
+  font-size: 12px;
+}
